@@ -148,7 +148,6 @@ Every push to `main` triggers an automatic redeploy.
 
 ## 🙏 Credits
 
-- Built with [Emergent](https://emergentagent.com)
 - Photography via [Unsplash](https://unsplash.com)
 - Fonts via [Google Fonts](https://fonts.google.com)
 
