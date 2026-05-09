@@ -1,0 +1,25 @@
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Jost',system-ui,sans-serif;
+  font-display:swap;
+  background:#0F0B08;
+  color:#F0E8D8;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+input,select,textarea,button{font-family:'Jost',system-ui,sans-serif;}
+::-webkit-scrollbar{width:3px;}
+::-webkit-scrollbar-thumb{background:#C9973A;}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideR{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:translateX(0)}}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes zoomIn{from{transform:scale(1.06)}to{transform:scale(1)}}
+
+.fu{animation:fadeUp 0.75s cubic-bezier(.22,1,.36,1) both;}
+.fi{animation:fadeIn 0.4s ease both;}
+.pg{animation:fadeIn 0.35s ease both;}
