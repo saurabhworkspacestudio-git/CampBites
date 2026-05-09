@@ -19,25 +19,23 @@ export const Home = ({ setPage }) => {
           minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center"
         }}>
           <div style={{ maxWidth: 620 }}>
-            <div className="fu" style={{ animationDelay: "0.1s" }}><Eyebrow c="Camp · MG Road · Pune — Est. 1978" /></div>
+            <div className="fu" style={{ animationDelay: "0.1s" }}><Eyebrow c="A Pune Institution · Since 1978" /></div>
             <h1 className="fu" style={{
               animationDelay: "0.22s", fontFamily: "'Cormorant Garamond',serif", fontWeight: 700,
               fontSize: "clamp(4.5rem,9vw,8rem)", lineHeight: 0.9, marginBottom: "2rem"
             }}>
-              <span style={{ display: "block", color: T.cream }}>Where</span>
-              <span style={{ display: "block", color: T.gold, fontStyle: "italic" }}>Flavour</span>
-              <span style={{ display: "block", color: T.cream }}>Finds</span>
-              <span style={{ display: "block", WebkitTextStroke: `1.5px ${T.gold}`, color: "transparent", fontStyle: "italic" }}>Soul.</span>
+              <span style={{ display: "block", color: T.cream }}>Slow-cooked.</span>
+              <span style={{ display: "block", color: T.gold, fontStyle: "italic" }}>Boldly served.</span>
             </h1>
             <p className="fu" style={{
               animationDelay: "0.38s", fontFamily: "'Cormorant Garamond',serif", fontStyle: "italic",
               fontSize: "1.2rem", color: "rgba(240,232,216,0.72)", lineHeight: 1.85, marginBottom: "2.5rem", maxWidth: 460
             }}>
-              Handcrafted smash burgers, crispy fries and cold milkshakes — cooked fresh from the same Camp kitchen since 1978.
+              Forty-seven years of smoke, char and craft. From a corner griddle in Camp to Pune's most quietly obsessed kitchen.
             </p>
             <div className="fu" style={{ animationDelay: "0.5s", display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-              <GoldBtn onClick={() => setPage("menu")} style={{ padding: "1.05rem 3rem" }}>Explore Menu</GoldBtn>
-              <GhostBtn onClick={() => setPage("contact")} style={{ padding: "1.05rem 3rem" }}>Book a Table</GhostBtn>
+              <GoldBtn onClick={() => setPage("menu")} style={{ padding: "1.05rem 3rem" }}>VIEW THE MENU</GoldBtn>
+              <GhostBtn onClick={() => setPage("contact")} style={{ padding: "1.05rem 3rem" }}>RESERVE A TABLE</GhostBtn>
             </div>
             <div className="fu" style={{ animationDelay: "0.65s", display: "flex", gap: "0", marginTop: "4rem", paddingTop: "2.5rem", borderTop: `1px solid ${T.border}` }}>
               {[["46", "Years"], ["32+", "Burgers"], ["4.8★", "Rating"], ["2L+", "Guests"]].map(([n, l], i) => (
